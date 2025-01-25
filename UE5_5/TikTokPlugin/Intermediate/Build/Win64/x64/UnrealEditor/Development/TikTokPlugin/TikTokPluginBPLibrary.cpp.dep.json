@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\source\\tiktokplugin\\private\\tiktokpluginbplibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\intermediate\\build\\win64\\x64\\test5_5editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tiktokplugin\\definitions.tiktokplugin.h",
+            "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\source\\tiktokplugin\\public\\tiktokpluginbplibrary.h",
+            "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\source\\tiktokplugin\\public\\tiktokplugineventhandler.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokplugineventhandler.generated.h",
+            "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokpluginbplibrary.generated.h",
+            "e:\\shiba_studios\\newgametemplate\\cpp_plugintesting\\test5_5\\plugins\\tiktokplugin\\source\\tiktokplugin\\public\\tiktokplugin.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\online\\websockets\\public\\iwebsocket.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

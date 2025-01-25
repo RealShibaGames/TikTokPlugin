@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TikTokPlugin.cpp.obj": [
+			"TikTokPlugin.init.gen.cpp.obj",
+			"TikTokPluginBPLibrary.gen.cpp.obj",
+			"TikTokPluginEventHandler.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"TikTokPlugin.cpp.obj",
+			"TikTokPluginBPLibrary.cpp.obj"
+		]
+	}
+}
