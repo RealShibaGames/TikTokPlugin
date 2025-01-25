@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "TikTokPlugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Shiba Games LLC",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "ShibaGames.com",
+	"EngineVersion": [
+		"5.0.0",
+		"5.1.0",
+		"5.2.0",
+		"5.3.0",
+		"5.4.0",
+		"5.5.0"
+	],
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TikTokPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}

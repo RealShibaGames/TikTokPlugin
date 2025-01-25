@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tiktokplugin\\module.tiktokplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\intermediate\\build\\win64\\x64\\jni_testworld5editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tiktokplugin\\definitions.tiktokplugin.h",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokplugin.init.gen.cpp",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokpluginbplibrary.gen.cpp",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\source\\tiktokplugin\\public\\tiktokpluginbplibrary.h",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\source\\tiktokplugin\\public\\tiktokplugineventhandler.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokplugineventhandler.generated.h",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokpluginbplibrary.generated.h",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\tiktokplugin\\uht\\tiktokplugineventhandler.gen.cpp",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\source\\tiktokplugin\\private\\tiktokplugin.cpp",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\source\\tiktokplugin\\public\\tiktokplugin.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\online\\websockets\\public\\iwebsocket.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\online\\websockets\\public\\websocketsmodule.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectconverter.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectwrapper.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\jsonutilities\\uht\\jsonobjectwrapper.generated.h",
+            "e:\\shiba_studios\\newgametemplate\\shiba climb\\jni_test6\\jni_testworld6\\plugins\\tiktokplugin\\source\\tiktokplugin\\private\\tiktokpluginbplibrary.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
