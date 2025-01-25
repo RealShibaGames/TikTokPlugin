@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TikTokPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Shiba_Studios\NewGameTemplate\CPP_PluginTesting\Test5_3\Intermediate\Build\Win64\x64\Test5_3Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\Shiba_Studios\NewGameTemplate\CPP_PluginTesting\Test5_3\Plugins\TikTokPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\TikTokPlugin\Module.TikTokPlugin.cpp.obj"
+"E:\Shiba_Studios\NewGameTemplate\CPP_PluginTesting\Test5_3\Plugins\TikTokPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\TikTokPlugin\Default.rc2.res"
+/OUT:"E:\Shiba_Studios\NewGameTemplate\CPP_PluginTesting\Test5_3\Plugins\TikTokPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\TikTokPlugin\UnrealEditor-TikTokPlugin.lib"
