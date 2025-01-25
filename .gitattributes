@@ -1,1 +1,2 @@
 TikTokPlugin/UE5_2/TikTokPlugin/Binaries/LocalWebSocketServer/WebSocketServer.exe filter=lfs diff=lfs merge=lfs -text
+UE5_3/TikTokPlugin/Binaries/LocalWebSocketServer/WebSocketServer.exe filter=lfs diff=lfs merge=lfs -text
