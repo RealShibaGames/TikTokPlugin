@@ -15,9 +15,7 @@
 <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" >
 </a>
 
-<a target="blank" >
-<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" >
-</a>
+
 
 </div>
 </div>
@@ -30,7 +28,13 @@ With **TikTokPlugin**, you can connect to any TikTok livestream and use viewer i
 
 
 
+## Tutorial
 
+Watch the full tutorial on how to set up and use TikTokPlugin in your Unreal Engine project:
+
+[![TikTokPlugin Tutorial](https://img.youtube.com/vi/n3EzKqyDghQ/0.jpg)](https://www.youtube.com/watch?v=n3EzKqyDghQ)
+
+Click the image above or [watch the tutorial here](https://www.youtube.com/watch?v=n3EzKqyDghQ).
 
 # Features
 - **Event-driven architecture**: Listens for events like comments, likes, and gifts.
@@ -40,6 +44,7 @@ With **TikTokPlugin**, you can connect to any TikTok livestream and use viewer i
 - **Self-contained setup**: Plugin includes a lightweight Java runtime and NodeJS websocket server bundled with the plugin, handling network connection with zero setup.
 
 ---
+---
 
 ## Getting Started
 
@@ -47,28 +52,39 @@ With **TikTokPlugin**, you can connect to any TikTok livestream and use viewer i
 
 #### Unreal Engine Integration
 1. Clone or download the **TikTokPlugin** repository.
-2. Copy the plugin folder into your Unreal Engine project's `Plugins` directory.
-3. Enable the plugin in the Unreal Engine editor.
+2. Copy the plugin folder for [YOUR ENGINE VERSION] into your Unreal Engine project's `Plugins` directory.
+* ![Project Directory](./resources/images/plugins.png)
 
-#### Bundled Java Runtime
-- Ensure the `JavaIntegration` directory includes the lightweight JRE, Java JAR, and JNI shared libraries.
+3. Enable the plugin in the Unreal Engine editor. (Should be automatic)
+* ![Plugin](./resources/images/TikTokPlugin.png)
+4. Start project.
 
-### Example Usage
+#### Inside Unreal
+1. Create blueprint -GameInstance. Name this whatever you want.
+* ![BP_Gameinstance](./resources/images/BP_GameInstance.png)
+2. Inside GameInstance, right-click and get the EventShutdown node, connect this to the TikTokPlugin [Close TikTok Connection] node. This closes the java process every time you stop gameplay, preventing duplicate instances. 
+* ![ShutDown](./resources/images/eventShutdown.png)
+3. Create test blueprint actor. **PLACE ACTOR INTO WORLD**
+4. After BeginPlay, create the blueprint node [Connect to TikTok Live]. Pass in a string parameter for whatever user you want to connect to. 
+* ![TikTokConnect](./resources/images/connect.png)
+5. On successful connection, create a blueprint node [Get TikTok Event Handler]. This will be the event handler that you bind functions to.
+* ![EventHandler](./resources/images/eventHandler.png)
 
-#### Unreal Engine Blueprint Setup
-Call the `TestPluginFunction` from any Blueprint to verify the plugin's functionality.
+#### Binding Events.
+1. Drag off of the event handler and type in 'Bind event on'. You will see the 6 events that are currently available. 
+-   **OnGift** --> Returns Username, UserID, User Profile Pic URL, Gift Type, Gift Value. 
+* ![onGift](./resources/images/onGift.png)
+-   **OnComment** --> Returns Username, UserID, User Profile Pic URL, User Comment.
+* ![onComment](./resources/images/onComment.png)
+-   **OnLike** --> Returns Username, UserID, User Profile Pic URL, Like Count.
+* ![onLike](./resources/images/onLike.png)
+-   **OnShare** --> Returns Username, UserID, User Profile Pic URL, User Share Count.
+* ![onShare](./resources/images/onShare.png)
+-   **OnFollow** --> Returns Username, UserID, User Profile Pic URL, Bool Already Following.
+* ![onFollow](./resources/images/onFollow.png)
+-   **OnRoomInfo** --> Returns Room Title, Viewer Count.
+* ![onRoomInfo](./resources/images/onRoomInfo.png)
 
-#### Java Application
-Launch the Java application (`tiktok_to_unreal-1.0-SNAPSHOT.jar`) alongside your game. The Java app handles TikTok livestream scraping and communicates with the plugin via JNI.
 
----
-
-## Events
-
-### Core Events
-**Gift Events**  
-Triggered when a user sends a gift:
-- `Rose`
-- `Corgi`
-- `GG`
-
+--- 
+### Don't Forget To Favorite the Github!
