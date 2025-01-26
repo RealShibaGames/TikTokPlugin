@@ -11,7 +11,7 @@
 <div align="center" >
 
 
-<a href="https://discord.gg/mQbRtx62fV" target="blank" >
+<a href="https://discord.com/invite/e2XwPNTBBr" target="blank" >
 <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" >
 </a>
 
